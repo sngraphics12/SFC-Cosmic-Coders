@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Vintage Red Dress",
+        "category": "Womens Wear",
+        "price": 89.99,
+        "image": "Assets/Images/1.jpg"
+    },
+    {
+        "name": "Womens Printed Silk Dress",
+        "category": "Womens Wear",
+        "price": 49.99,
+        "image": "Assets/Images/6.jpg"
+    },
+    {
+        "name": "Classic Women's Wear",
+        "category": "Womens Wear",
+        "price": 49.99,
+        "image": "Assets/Images/new women.jpg"
+    },
+    {
+        "name": "Women's Vintage Fashion",
+        "category": "Womens Wear",
+        "price": 49.99,
+        "image": "Assets/Images/women new neww.jpg"
+    },
+    {
+        "name": "Winter Black Hoodie",
+        "category": "Womens Wear",
+        "price": 79.99,
+        "image": "Assets/Images/women.jpg"
+    },
+    {
+        "name": "Classic Hoodie",
+        "category": "Womens Wear",
+        "price": 29.99,
+        "image": "Assets/Images/women1.jpg"
+    }
+]

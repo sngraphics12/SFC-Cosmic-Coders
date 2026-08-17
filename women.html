@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thrift Fashion Store</title>
+
+    <link rel="icon" href="./assets/images/titlelogo.jpg">
+
+    <link rel="stylesheet" href="./assets/css/product.CSS">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body data-json="women.json">
+
+    <!-- TOP STRIP -->
+
+    <div class="top-strip">
+
+        <div class="top-strip-inner">
+
+            <div class="sustainability-message">
+                <span>100% Sustainable & Pre-Loved</span>
+                &nbsp; • &nbsp;
+                Premium Second-Hand Clothing
+            </div>
+
+            <div class="top-right">
+
+                 <div class="top-pill">
+                    Welcome, &nbsp; <span id="userName">Guest</span>
+                </div>
+
+                <div class="top-pill">
+                    +2157 Visitors
+                </div>
+
+        
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- NAVIGATION -->
+
+    <header class="navbar">
+
+        <div class="nav-inner">
+
+            <!-- LOGO -->
+
+            <div class="logo">
+
+                <img
+                    class="logo-image"
+                    src="./assets/images/logo final.jpg"
+                    alt="Thrift Logo">
+
+                <div class="logo-text">
+
+                    <div class="logo-title">
+                        THRIFT
+                    </div>
+
+                    <div class="logo-subtitle">
+                        FASHION STORE
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- NAVIGATION -->
+
+            <nav class="nav-links">
+
+                <a href="./index.html">Home</a>
+
+                <a href="./product.html">Products</a>
+
+                <a href="./about.html">About Us</a>
+
+                <a href="./contact.html">Contact Us</a>
+
+                <a href="./feedback.html">Feedback</a>
+
+            </nav>
+
+
+            <!-- ACTIONS -->
+
+            <div class="nav-actions">
+
+                <a href="./product.html" class="search-button" style="display: flex; justify-content: center; align-items: center;">
+                    <span>⌕</span>
+                 
+                </a>
+
+                <button class="cart-button" onclick="goCart()">
+                    Cart
+                </button>
+
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- PRODUCTS -->
+
+    <main class="products">
+
+        <p class="catalog-title">
+            Thrift Catalog
+        </p>
+
+
+        <div class="product-heading">
+
+            <div class="description">
+
+                <h1 class="fonts">
+                    Pre-Loved Fashion
+                </h1>
+
+                <p style="letter-spacing: 3px;">
+                    Discover quality fashion at affordable prices.
+                </p>
+
+            </div>
+
+
+            <!-- CATEGORY BUTTONS -->
+
+            <ul>
+
+                <li>
+                    <a href="./product.html">
+                        All Products
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./outwear.html">
+                        Outwear
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./Vintage.html">
+                        Vintage
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./women.html">
+                        Women
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./Men.html">
+                        Men
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./Dennim.html">
+                        Denim
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- PRODUCTS FROM JSON -->
+
+        <div
+            class="image-container"
+            id="p-list">
+        </div>
+
+    </main>
+
+
+    <!-- SUSTAINABILITY -->
+
+    <section class="sustainability-section">
+
+        <div class="sustainability-inner">
+
+            <div class="sustainability-box">
+
+                <div class="sustain-item">
+
+                    <div class="sustain-icon green-icon">
+                        ♻
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Save Our Planet
+                        </h3>
+
+                        <p>
+                            Textile production is one of the most
+                            resource-intensive industries. Buying
+                            thrift reduces carbon footprint and
+                            water consumption.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="sustain-item">
+
+                    <div class="sustain-icon blue-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Strict Quality Control
+                        </h3>
+
+                        <p>
+                            No stained or torn items. We inspect
+                            every button, zipper and seam, and
+                            steam clean each piece to perfection.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="sustain-item">
+
+                    <div class="sustain-icon yellow-icon">
+                        $
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Affordable Luxury
+                        </h3>
+
+                        <p>
+                            Own original Levi's, Ralph Lauren,
+                            Schott, and designer ethnic wear
+                            for a fraction of store prices.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TICKER -->
+
+<div class="ticker">
+    <div class="ticker-content">
+
+        <span id="currentDate"></span>
+
+        <span id="currentTime"></span>
+
+        <span> Wear the Change.</span>
+
+        <span> Curated Pre-Loved &amp; Vintage Garments.</span>
+
+        <span></span> Sustainable Fashion • Timeless Style</span>
+
+    </div>
+</div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        © 2026 Thrift Fashion Store
+        &nbsp; • &nbsp;
+        Sustainable Fashion
+        &nbsp; • &nbsp;
+        Pre-Loved With Purpose
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="./assets/js/product.js"></script>
+    <script src="./assets/js/alert.js"></script>
+
+</body>
+
+</html>

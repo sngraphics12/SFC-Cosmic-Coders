@@ -1,0 +1,129 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Oversized T-Shirt" ,
+        "category": "Mens Wear ",
+        "price": 59.99,
+        "image": "assets/images/photo-1621951753015-740c699ab970.avif"
+    },
+
+    {
+        "id": 2,
+        "name": "Western Vintage dress",
+        "category": "Womens Wear",
+        "price": 89.99,
+        "image": "assets/images/222.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Womens Printed Silk Dress",
+        "category": "Womens Wear",
+        "price": 49.99,
+        "image": "assets/images/6.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "Mens Denim Jeans",
+        "category": "Mens Wear",
+        "price": 49.99,
+        "image": "assets/images/1_de1064bb-b80c-47cd-a873-7609b2bbf7a6.jpg"
+    },
+
+    {
+        "id": 5,
+        "name": "Classic Outerwear Jacket",
+        "category": "Mens Wear",
+        "price": 49.99,
+        "image": "assets/images/outweaer.jpg"
+    },
+
+    {
+        "id": 6,
+        "name": "Classic Fashion Wear",
+        "category": "Mens Wear",
+        "price": 49.99,
+        "image": "assets/images/images.jpg"
+    },
+
+    {
+        "id": 7,
+        "name": "Classic Women's Wear",
+        "category": "Womens Wear",
+        "price": 49.99,
+        "image": "assets/images/new women.jpg"
+    },
+
+    {
+        "id": 8,
+        "name": "Women's Silk Printed Dress",
+        "category": "Womens Wear",
+        "price": 49.99,
+        "image": "assets/images/women new neww.jpg"
+    },
+
+    {
+        "id": 9,
+        "name": " Womens Red Lawn Suit (3pc)",
+        "category": "Mens Wear",
+        "price": 89.99,
+        "image": "assets/images/outwear 6.jpg"
+    },
+
+    {
+        "id": 10,
+        "name": "White Denim Shirt",
+        "category": "Mens Wear",
+        "price": 79.99,
+        "image": "assets/images/outwear.jpg"
+    },
+
+    {
+        "id": 11,
+        "name": "Old Fashion Coat",
+        "category": "Vintage leather jacket",
+        "price": 59.99,
+        "image": "assets/images/Vntage new.jpg"
+    },
+
+    {
+        "id": 12,
+        "name": "Vintage Coat",
+        "category": "Vintage",
+        "price": 49.99,
+        "image": "assets/images/vintage coat.jpg"
+    },
+
+    {
+        "id": 13,
+        "name": "Mens Oldmoney Sweater",
+        "category": "Mens Wear",
+        "price": 49.99,
+        "image": "assets/images/Old M oney New.jpg"
+    },
+
+    {
+        "id": 14,
+        "name": "Winter Black Hoodie",
+        "category": "Womens Wear",
+        "price": 79.99,
+        "image": "assets/images/women.jpg"
+    },
+
+    {
+        "id": 15,
+        "name": "Classic Hoodie",
+        "category": "Womens Wear",
+        "price": 29.99,
+        "image": "assets/images/women1.jpg"
+    },
+
+    {
+        "id": 16,
+        "name": "Mens Black Denim Shirt",
+        "category": "Denim",
+        "price": 49.99,
+        "image": "assets/images/new.jpg"
+    }
+]

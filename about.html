@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thrift Fashion Store</title>
+    <link rel="icon" href="./assets/images/titlelogo.jpg">
+    <link rel="stylesheet" href="./Assets/CSS/about.CSS">
+</head>
+<body>
+
+    <!-- TOP STRIP -->
+    <div class="top-strip">
+        <div class="top-strip-inner">
+
+            <div class="sustainability-message">
+                <span>100% Sustainable & Pre-Loved</span>
+                &nbsp; • &nbsp;
+                Premium Second-Hand Clothing
+            </div>
+
+            <div class="top-right">
+                <div class="top-pill">
+                    Welcome, &nbsp; <span id="userName">Guest</span>
+                </div>
+                <div class="top-pill">+2157 Visitors</div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <div class="nav-inner">
+
+            <div class="logo">
+                <img class="logo-image" src="./assets/images/logo final.jpg" alt="Thrift Logo">
+
+                <div class="logo-text">
+                    <div class="logo-title">THRIFT</div>
+                    <div class="logo-subtitle">FASHION STORE</div>
+                </div>
+            </div>
+
+            <nav class="nav-links">
+                <a href="./index.html">Home</a>
+                <a href="./product.html" target="_blank">Products</a>
+               
+                <a href="./about.html">About Us</a>
+                <a href="./contact.html">Contact Us</a>
+                <a href="./feedback.html">Feedback</a>
+            </nav>
+
+            <div class="nav-actions">
+               <a href="./product.html" class="search-button" style="display: flex; justify-content: center; align-items: center;">
+                    <span>⌕</span>
+                 
+                </a>
+
+                <button class="cart-button" onclick="goCart()">
+                    Cart
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- ABOUT HERO SLIDER -->
+        <section class="about-hero">
+
+            <div class="hero-slider">
+
+                <input type="radio" name="hero-slide" id="slide1" checked>
+                <input type="radio" name="hero-slide" id="slide2">
+                <input type="radio" name="hero-slide" id="slide3">
+
+                <div class="hero-slides">
+
+                    <!-- Slide 1 -->
+                    <div class="hero-slide slide-one">
+                        <img src="./assets/images/about-1.jpg" alt="Thrift clothing">
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-content">
+                            <p>BACKGROUND & PURPOSE</p>
+                            <h1>About Thrift Fashion Store</h1>
+                            <span>Fashion with a second life.</span>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="hero-slide slide-two">
+                        <img src="./assets/images/about-2.jpg" alt="Thrift fashion store">
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-content">
+                            <p>SUSTAINABLE FASHION</p>
+                            <h1>Wear. Reuse. Repeat.</h1>
+                            <span>Better fashion, less waste.</span>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="hero-slide slide-three">
+                        <img src="./assets/images/about-3.jpg" alt="Pre-loved clothes">
+                        <div class="hero-overlay"></div>
+
+                        <div class="hero-content">
+                            <p>PRE-LOVED WITH PURPOSE</p>
+                            <h1>Style That Matters</h1>
+                            <span>Quality fashion at affordable prices.</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Slider buttons -->
+                <div class="slider-dots">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+
+            </div>
+
+            <!-- About description stays below the visual banner -->
+            <div class="about-intro">
+                <p>
+                    Thrift Fashion Store provides a 24/7 online shopping facility
+                    for pre-used fashionable garments in excellent condition at
+                    affordable prices. Our portal supports recycling, sustainability
+                    and circular living.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- THREE ABOUT CARDS -->
+        <section class="about-cards-section">
+
+            <div class="about-cards">
+
+                <div class="about-card">
+                    <div class="card-icon">♻</div>
+                    <h2>Circular Fashion</h2>
+                    <div class="card-line"></div>
+
+                    <p>
+                        We give clothes a second life instead of letting them go to waste.
+                        By reusing and passing on good-quality clothing, we help reduce
+                        fashion waste and encourage responsible choices.
+                    </p>
+                </div>
+
+
+                <div class="about-card">
+                    <div class="card-icon">₨</div>
+                    <h2>70%+ Savings</h2>
+                    <div class="card-line"></div>
+
+                    <p>
+                        Get your favorite styles at much lower prices. Our pre-owned
+                        clothing can help you save 70% or more compared with buying
+                        similar items new.
+                    </p>
+                </div>
+
+
+                <div class="about-card">
+                    <div class="card-icon">✓</div>
+                    <h2>Mint Quality</h2>
+                    <div class="card-line"></div>
+
+                    <p>
+                        We carefully select and check every item before it reaches you.
+                        Our focus is on clothes that are clean, well-maintained and
+                        in excellent condition.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SUSTAINABILITY SECTION -->
+         <section class="sustainability-section">
+
+            <div class="sustainability-inner">
+
+                <div class="sustainability-box">
+
+                    <div class="sustain-item">
+                        <div class="sustain-icon green-icon">♻️</div>
+
+                        <div>
+
+                            <h3>Save Our Planet</h3>
+                            <p>
+                                Textile production is one of the most resource-intensive
+                                industries. Buying thrift reduces carbon footprint and
+                                water consumption.
+                            </p>
+                        </div>
+                    
+
+
+                    <div class="sustain-item">
+                        <div class="sustain-icon blue-icon">✓</div>
+
+                        <div>
+                            <h3>Strict Quality Control</h3>
+                            <p>
+                                No stained or torn items. We inspect every button,
+                                zipper and seam, and steam clean each piece.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="sustain-item">
+                        <div class="sustain-icon yellow-icon">₨</div>
+
+                        <div>
+                            <h3>Affordable Luxury</h3>
+                            <p>
+                                Own original Levi's, Ralph Lauren, Schott and designer
+                                ethnic wear for a fraction of store prices.
+                            </p>
+                        </div>
+                    </div>
+
+                
+
+        
+                <ul class="sitemap">
+                    <li>
+                        <a href="siteplan.html">Site Map --></a>
+                    </li>
+                </ul>
+           
+</div>
+
+        </section>
+
+    </main>
+
+
+
+<div class="ticker">
+    <div class="ticker-content">
+
+        <span id="currentDate"></span>
+
+        <span id="currentTime"></span>
+
+        <span> Wear the Change.</span>
+
+        <span> Curated Pre-Loved &amp; Vintage Garments.</span>
+
+        <span></span> Sustainable Fashion • Timeless Style</span>
+
+    </div>
+</div>
+
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 Thrift Fashion Store
+        &nbsp; • &nbsp;
+        Sustainable Fashion
+        &nbsp; • &nbsp;
+        Pre-Loved With Purpose
+    </footer>
+
+ <script src="./assets/js/alert.js"></script>
+
+    <script>
+        function goCart() {
+
+    window.location.href = "cart.html";
+
+}
+    </script>
+
+</body>
+</html>

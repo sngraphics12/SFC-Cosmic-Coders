@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thrift Fashion Store</title>
+
+    <link rel="icon" href="./assets/images/titlelogo.jpg">
+
+    <link rel="stylesheet" href="./Assets/CSS/findproduct.css">
+
+</head>
+
+<body>
+
+    <div class="top-strip">
+
+        <div class="top-strip-inner">
+
+            <div class="sustainability-message">
+
+                <span>100% Sustainable & Pre-Loved</span>
+
+                &nbsp; • &nbsp;
+
+                Premium Second-Hand Clothing
+
+            </div>
+
+            <div class="top-right">
+
+                 <div class="top-pill">
+                    Welcome, &nbsp; <span id="userName">Guest</span>
+                </div>
+
+                <div class="top-pill">
+                    +2157 Visitors
+                </div>
+
+               
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <header class="navbar">
+
+        <div class="nav-inner">
+
+            <div class="logo">
+
+                <img
+                    class="logo-image"
+                    src="./assets/images/logo final.jpg"
+                    alt="Thrift Logo"
+                >
+
+                <div class="logo-text">
+
+                    <div class="logo-title">
+                        THRIFT
+                    </div>
+
+                    <div class="logo-subtitle">
+                        FASHION STORE
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <nav class="nav-links">
+
+                <a href="./index.html">Home</a>
+
+                <a href="./product.html">Products</a>
+
+                <a href="./about.html">About Us</a>
+
+                <a href="./contact.html">Contact Us</a>
+
+                <a href="./feedback.html">Feedback</a>
+
+            </nav>
+
+
+            <div class="nav-actions">
+
+                <a href="./product.html" class="search-button" style="display: flex; justify-content: center; align-items: center;">
+                    <span>⌕</span>
+                 
+                </a>
+
+                <button class="cart-button" onclick="goCart()">
+                    Cart
+                </button>
+
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                <b><i>Find Your Next Pre-Loved Garments</i></b>
+            </h1>
+
+            <p>
+                Search by item name, vintage brand, authentic fabric,
+                or specific style aesthetic.
+            </p>
+
+
+            <div class="search-box">
+
+                <img
+                    src="./Assets/Images/magnifying-glass-solid-full.svg"
+                    alt="Search"
+                >
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="DIRECT GARMENTS SEARCH & DISCOVERY"
+                >
+
+            </div>
+
+
+            <div class="tags">
+
+                <a href="#" class="tag" data-category="popular">
+                    #popular
+                </a>
+
+                <a href="#" class="tag" data-category="Denim">
+                    #Denim
+                </a>
+
+                <a href="#" class="tag" data-category="Vintage">
+                    #Vintage
+                </a>
+
+                <a href="#" class="tag" data-category="Silk">
+                    #Silk
+                </a>
+
+                <a href="#" class="tag" data-category="Kurta">
+                    #Kurta
+                </a>
+
+                <a href="#" class="tag" data-category="Hoodie">
+                    #Hoodie
+                </a>
+
+                <a href="#" class="tag" data-category="Corduroy">
+                    #Corduroy
+                </a>
+
+                <a href="#" class="tag" data-category="Khadi">
+                    #Khadi
+                </a>
+
+                <a href="#" class="tag" data-category="Leather">
+                    #Leather
+                </a>
+
+                <a href="#" class="tag" data-category="Jacket">
+                    #Jacket
+                </a>
+
+                <a href="#" class="tag" data-category="Sweater">
+                    #Sweater
+                </a>
+
+                <a href="#" class="tag" data-category="Dress">
+                    #Dress
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="product-detail">
+
+        <div class="product-detail-image">
+
+            <img
+                id="productImage"
+                src=""
+                alt="Product Image"
+            >
+
+        </div>
+
+
+        <div class="product-detail-info">
+
+            <p
+                id="productCategory"
+                class="category"
+            ></p>
+
+
+            <h1 id="productName"></h1>
+
+
+            <p class="detail-text">
+
+                Discover quality pre-loved fashion at an affordable
+                price. Every item is carefully selected for our
+                sustainable fashion collection.
+
+            </p>
+
+
+          <div class="quantity">
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" value="1" min="1">
+</div>
+
+<button 
+    class="add-cart" 
+    onclick="addToCart()" 
+>
+    Add to Cart
+</button>
+        </div>
+
+    </section>
+
+
+    <section class="sustainability-section">
+
+        <div class="sustainability-inner">
+
+            <div class="sustainability-box">
+
+
+                <div class="sustain-item">
+
+                    <div class="sustain-icon green-icon">
+                        🌿
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Save Our Planet
+                        </h3>
+
+                        <p>
+                            Textile production is one of the most
+                            resource-intensive industries. Buying
+                            thrift reduces carbon footprint and
+                            water consumption.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="sustain-item">
+
+                    <div class="sustain-icon blue-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Strict Quality Control
+                        </h3>
+
+                        <p>
+                            No stained or torn items. We inspect
+                            every button, zipper and seam, and
+                            steam clean each piece to perfection.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="sustain-item">
+
+                    <div class="sustain-icon yellow-icon">
+                        $
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Affordable Luxury
+                        </h3>
+
+                        <p>
+                            Own original Levi's, Ralph Lauren,
+                            Schott, and designer ethnic wear
+                            for a fraction of store prices.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+<div class="ticker">
+    <div class="ticker-content">
+
+        <span id="currentDate"></span>
+
+        <span id="currentTime"></span>
+
+        <span> Wear the Change.</span>
+
+        <span> Curated Pre-Loved &amp; Vintage Garments.</span>
+
+        <span></span> Sustainable Fashion • Timeless Style</span>
+
+    </div>
+</div>
+
+
+    <footer>
+
+        © 2026 Thrift Fashion Store
+
+        &nbsp; • &nbsp;
+
+        Sustainable Fashion
+
+        &nbsp; • &nbsp;
+
+        Pre-Loved With Purpose
+
+    </footer>
+
+ <script src="./assets/js/alert.js"></script>
+
+
+    <script src="./assets/js/findproduct.js"></script>
+
+    <script>
+        function goCart() {
+
+    window.location.href = "cart.html";
+
+}
+    </script>
+</body>
+
+</html>

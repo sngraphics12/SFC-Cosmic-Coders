@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Thrift Fashion Store</title>
+    <link rel="icon" href="./assets/images/titlelogo.jpg">
+    <link rel="stylesheet" href="./assets/css/feedback.css">
+</head>
+<body>
+    
+<div class="top-strip">
+
+        <div class="top-strip-inner">
+
+            <div class="sustainability-message">
+                <span> 100% Sustainable & Pre-Loved</span>
+                &nbsp; • &nbsp;
+                Premium Second-Hand Clothing
+            </div>
+
+            <div class="top-right">
+                
+                <div class="top-pill">
+                    Welcome, &nbsp; <span id="userName">Guest</span>
+                </div>
+                <div class="top-pill">
+                   +2157 Visitors
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- NAVIGATION -->
+
+    <header class="navbar">
+
+        <div class="nav-inner">
+
+            <!-- Logo -->
+            <div class="logo">
+
+                <img
+                    class="logo-image"
+                    <img src="./assets/images/logo final.jpg" alt="Thrift Logo">
+
+                <div class="logo-text">
+
+                    <div class="logo-title">
+                        THRIFT
+                    </div>
+
+                    <div class="logo-subtitle">
+                        FASHION STORE
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Navigation -->
+            <nav class="nav-links">
+
+                <a href="./index.html"> Home </a>
+
+                <a href="./product.html" target="_blank"> Products </a>
+
+
+                <a href="./about.html"> About Us </a>
+
+                <a href="./contact.html"> Contact Us </a>
+
+                <a href="./feedback.html"> Feedback </a>
+
+            </nav>
+
+
+            <!-- Right Actions -->
+            <div class="nav-actions">
+
+                 <a href="./product.html" class="search-button" style="display: flex; justify-content: center; align-items: center;">
+                    <span>⌕</span>
+                 
+                </a>
+
+                <button class="cart-button" onclick="goCart()">
+                    Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+ <center>
+    <div class="customer">
+        VERIFIED CUSTOMER REVIEWS
+    </div>
+
+    <h1>Customer Feedback & Thrift Experiences</h1>
+    <a>Read authentic experiences from sustainable thrift across Pakistan,or share your own review. </a>
+
+    <div class="top-rank"><b>4.8</b>/5.0 (4 reviews)</div>
+    </center>
+
+
+    
+  <div class="main" style="display: flex; justify-content: space-around; align-items: center; width: 100wh;">
+
+<div class="cards" style="width: 50%;">
+
+  <div class="main1">
+  <div class="z">   
+    H
+  </div>
+  <div class="fatima"> <b>Hamza Nadeem</b>
+  </div>
+  <div class="verified">Verified Buyer</div>
+  <div class="star"><img src="./assets/images/star-removebg-preview.png" width="50px"></div>
+  <div class="address">Karachi,Pakistan.2026-08-08</div>
+  <div class="item">
+    Item:Vintage 1990s Washed Denim Trucker Jacket
+  </div>
+  "Found an orignail 90s levi's denim jacket for a fraction of retail price.Thrift Fashion Store is changing the game for sustainable style in pakistan.Delivery took just 2 daysto karachi "<br></div>
+
+
+
+  
+
+   <div class="main1">
+  <div class="z">
+    N
+  </div>
+  <div class="fatima"> <b>Noor Ali</b>
+  </div>
+  <div class="verified">Verified Buyer</div>
+  <div class="star"><img src="./assets/images/star-removebg-preview.png" width="50px"></div>
+  <div class="address">Rawalpindi,Pakistan.2026-08-05</div>
+  <div class="item">
+    Item:Oversized Japanese Streetwear Graphic Hoodie
+  </div>
+  "Great customer service and fast response on WhatsApp/Email.Product condition was accurately listed as 9.5/10.will definitely order again "<br></div>
+
+
+  <div class="main1">
+  <div class="z">
+    H
+  </div>
+  <div class="fatima"> <b>Haris Awan</b>
+  </div>
+  <div class="verified">Verified Buyer</div>
+  <div class="star"><img src="./assets/images/star-removebg-preview.png" width="50px"></div>
+  <div class="address">Islamabad,Pakistan.2026-08-02</div>
+  <div class="item">
+    Item:Pearl White Handspun Khadi Shirt
+  </div>
+  "Loved the transparency with eco-impact starts(water and CO2 saved) Sustainable thrifting is so necessary.The khadi shirt fits wonderfully "<br></div>
+  
+  </div>
+
+<div class="form"  style="width: 50%; ">
+  
+ <div class="form">
+
+    <div class="box10">
+
+        <h1>Share your Experience</h1>
+
+        <p>
+            Your feedback helps us continuously improve sustainable fashion
+            accessibility across Pakistan.
+        </p>
+
+        <form>
+
+            <b>YOUR RATING</b>
+
+            <img src="./assets/images/star-removebg-preview.png" width="80px">
+
+            <br><br>
+
+            <b>YOUR NAME</b>
+
+            <input
+                type="text"
+                name="name"
+                placeholder="e.g. Zainab Fatima"
+                pattern="[A-Za-z ]{3,30}"
+                title="Please enter a valid name using letters only"
+                required
+            >
+
+            <br><br>
+
+            <b>CITY/LOCATION</b>
+
+            <input
+                type="text"
+                name="location"
+                placeholder="Enter your location"
+                pattern="[A-Za-z ]{3,30}"
+                title="Please enter a valid city name"
+                required
+            >
+
+            <br><br>
+
+            <b>ITEM PURCHASED (OPTIONAL)</b>
+
+            <input
+                type="text"
+                name="item"
+                placeholder="Enter item name"
+            >
+
+            <br><br>
+
+            <b>YOUR FEEDBACK / REVIEW</b>
+
+            <input
+                id="input1"
+                type="text"
+                name="feedback"
+                placeholder="Tell us about the garment quality, fit and thrifting experience"
+                minlength="10"
+                maxlength="300"
+                required
+            >
+
+            <br><br>
+
+            <button type="submit" class="button">
+                Publish Feedback
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+  </div>
+
+  </div>
+<!-- SUSTAINABILITY SECTION -->
+
+             <section class="sustainability-section">
+
+            <div class="sustainability-inner">
+
+                <div class="sustainability-box">
+
+                    <div class="sustain-item">
+                        <div class="sustain-icon green-icon">♻️</div>
+
+                        <div>
+
+                            <h3>Save Our Planet</h3>
+                            <p>
+                                Textile production is one of the most resource-intensive
+                                industries. Buying thrift reduces carbon footprint and
+                                water consumption.
+                            </p>
+                        </div>
+                    
+
+
+                    <div class="sustain-item">
+                        <div class="sustain-icon blue-icon">✓</div>
+
+                        <div>
+                            <h3>Strict Quality Control</h3>
+                            <p>
+                                No stained or torn items. We inspect every button,
+                                zipper and seam, and steam clean each piece.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="sustain-item">
+                        <div class="sustain-icon yellow-icon">₨</div>
+
+                        <div>
+                            <h3>Affordable Luxury</h3>
+                            <p>
+                                Own original Levi's, Ralph Lauren, Schott and designer
+                                ethnic wear for a fraction of store prices.
+                            </p>
+                        </div>
+                    </div>
+
+                
+
+        
+                <ul class="sitemap">
+                    <li>
+                        <a href="siteplan.html">Site Map --></a>
+                    </li>
+                </ul>
+           
+</div>
+
+        </section>
+
+    </main>
+
+   
+
+    <!-- Ticker -->
+
+<div class="ticker">
+    <div class="ticker-content">
+
+        <span id="currentDate"></span>
+
+        <span id="currentTime"></span>
+
+        <span> Wear the Change.</span>
+
+        <span> Curated Pre-Loved &amp; Vintage Garments.</span>
+
+        <span></span> Sustainable Fashion • Timeless Style</span>
+
+    </div>
+</div>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        © 2026 Thrift Fashion Store
+        &nbsp; • &nbsp;
+        Sustainable Fashion
+        &nbsp; • &nbsp;
+        Pre-Loved With Purpose
+
+    </footer>
+
+
+ <script src="./assets/js/alert.js"></script>
+
+
+    <script>
+        function goCart() {
+
+    window.location.href = "cart.html";
+
+}
+    </script>
+</body>
+</html>

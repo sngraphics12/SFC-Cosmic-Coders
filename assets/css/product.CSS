@@ -1,0 +1,873 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f5f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* 
+   TOP STRIP
+ */
+
+.top-strip {
+
+    height: 34px;
+
+    background-color: #2d2433;
+
+    color: #c9a27e;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 11px;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 1000;
+}
+
+.top-strip-inner {
+
+    width: 88%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.sustainability-message {
+
+    color: #d9fff0;
+
+    letter-spacing: 0.2px;
+}
+
+.sustainability-message span {
+
+    color: #20c98a;
+
+    font-weight: 700;
+}
+
+.top-right {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+.top-pill {
+
+    padding: 5px 10px;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    border-radius: 20px;
+
+    color: #e7eef5;
+}
+
+
+/* 
+   NAVIGATION
+ */
+
+.navbar {
+
+    height: 78px;
+
+    border-bottom: 1px solid #e7eaed;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: white;
+
+    position: fixed;
+
+    top: 34px;
+
+    left: 0;
+    right: 0;
+
+    z-index: 999;
+}
+
+.nav-inner {
+
+    width: 88%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+/* LOGO */
+
+.logo {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    min-width: 175px;
+}
+
+.logo-image {
+
+    width: 45px;
+
+    height: 45px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+.logo-text {
+
+    line-height: 1;
+}
+
+.logo-title {
+
+    font-size: 19px;
+
+    font-weight: 900;
+
+    color: #4a3b4d;
+}
+
+.logo-subtitle {
+
+    font-size: 8px;
+
+    color: #b9aab8;
+
+    letter-spacing: 1.2px;
+
+    font-weight: bold;
+
+    margin-top: 4px;
+}
+
+
+/* NAV LINKS */
+
+.nav-links {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 7px;
+}
+
+.nav-links a {
+
+    padding: 12px 16px;
+
+    font-size: 14px;
+
+    color: #202735;
+
+    border-radius: 9px;
+
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+
+    font-size: 15px;
+    transform: translateY(-2px);
+}
+
+
+/* ACTIONS */
+
+.nav-actions {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+.search-button {
+
+    width: 42px;
+
+    height: 42px;
+
+    border: 1px solid #e4e8ec;
+
+    border-radius: 11px;
+
+    background: white;
+
+    font-size: 18px;
+}
+
+.cart-button {
+
+    height: 42px;
+
+    padding: 0 17px;
+
+    background: #4a3b4d;
+
+    color: white;
+
+    border-radius: 10px;
+
+    font-weight: bolder;
+
+    font-size: 15px;
+}
+
+.cart-button a {
+
+    color: white;
+}
+
+
+/* 
+   PRODUCTS HEADING
+ */
+
+.products {
+
+    padding: 35px;
+
+    padding-top: 35px;
+
+    margin-top: 112px;
+
+    background: whitesmoke;
+
+    color: #2d2433;
+
+    width: 100%;
+}
+
+.catalog-title {
+
+    font-size: 15px;
+
+    color: #b9aab8;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    margin-bottom: 5px;
+}
+
+.product-heading {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 100%;
+
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+.description {
+
+    width: 100%;
+
+    text-align: center;
+}
+
+.description h1 {
+
+    color: #2d2433;
+}
+
+.fonts {
+
+    font-family: "Cormorant Garamond", serif;
+
+     font-size: 60px;
+
+    font-weight: 700;
+
+    margin-top: 5px;
+
+    margin-bottom: 8px;
+}
+
+.description p {
+
+    color: #777;
+
+    line-height: 1.6;
+
+    font-size: 14px;
+}
+
+
+/* 
+   CATEGORY BUTTONS
+ */
+
+.product-heading ul {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 25px 0 0 0;
+}
+
+.product-heading > ul > li > a {
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: #f4eee4;
+
+    background: #4a3b4d;
+
+    padding: 10px 16px;
+
+    border: 1px solid rgba(255, 255, 255, 0.4);
+
+    border-radius: 15px;
+
+    font-size: 14px;
+
+    transition: 0.2s;
+}
+
+.product-heading > ul > li > a:hover {
+
+    background-color: #2d2433;
+
+    transform: translateY(-2px);
+}
+
+
+/* 
+   PRODUCT CARDS
+ */
+
+.image-container {
+
+    width: 100%;
+
+    max-width: 1250px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(270px, 1fr));
+
+    gap: 25px;
+
+    justify-items: center;
+}
+
+
+.card {
+
+    background: #4a3b4d;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+
+    border: 1px solid #2d2433;
+
+    width: 100%;
+
+    max-width: 300px;
+
+    min-height: 430px;
+
+    box-shadow: 0 5px 15px rgba(45, 36, 51, 0.12);
+}
+
+.card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 25px rgba(45, 36, 51, 0.2);
+}
+
+
+/* IMAGE */
+
+.productimage {
+
+    width: 100%;
+
+    height: 280px;
+
+    overflow: hidden;
+}
+
+.productimage img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition: 0.5s ease;
+}
+
+.card:hover img {
+
+    transform: scale(1.05);
+}
+
+
+/* INFO */
+
+.productinfo {
+
+    padding: 15px;
+}
+
+.category {
+
+    font-size: 13px;
+
+    letter-spacing: 2px;
+
+    opacity: 0.8;
+
+    color: #b9aab8;
+
+    margin-bottom: 5px;
+}
+
+.productinfo h3 {
+
+    color: #f4eee4;
+
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 22px;
+
+    margin: 8px 0;
+
+    min-height: 45px;
+}
+
+.price {
+
+    color: #c9a27e;
+
+    font-size: 19px;
+
+    font-weight: 500;
+
+    margin: 12px 0;
+}
+
+
+/* BUTTON */
+
+.btn {
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: #17121c;
+
+    background: #c9a27e;
+
+    padding: 8px 14px;
+
+    border: 1px solid rgba(255, 255, 255, 0.4);
+
+    border-radius: 15px;
+
+    font-size: 14px;
+
+    transition: 0.2s;
+}
+
+.btn:hover {
+
+    font-size: 15px;
+
+    color: #17121c;
+
+    background: #d8b58f;
+}
+
+
+/* 
+   SUSTAINABILITY
+ */
+
+.sustainability-section {
+
+    padding: 20px 0 45px;
+}
+
+.sustainability-inner {
+
+    width: 88%;
+
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+.sustainability-box {
+
+    background: #4a3b4d;
+
+    color: white;
+
+    border-radius: 19px;
+
+    padding: 32px 35px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 40px;
+
+    position: relative;
+
+    display: flex;
+}
+
+.sustain-item {
+
+    display: flex;
+
+    gap: 15px;
+}
+
+.sustain-icon {
+
+    min-width: 36px;
+
+    height: 36px;
+
+    border-radius: 9px;
+
+    display: grid;
+
+    place-items: center;
+
+    font-size: 18px;
+}
+
+.green-icon {
+
+    background: #c9a27e;
+
+    color: white;
+}
+
+.blue-icon {
+
+    background: whitesmoke;
+
+    color: #4ca3ff;
+}
+
+.yellow-icon {
+
+    background: #fec301;
+
+    color: white;
+}
+
+.sustain-item h3 {
+
+    font-size: 13px;
+
+    margin-bottom: 8px;
+}
+
+.sustain-item p {
+
+    color: #9ea8ba;
+
+    font-size: 9px;
+
+    line-height: 1.6;
+}
+
+
+/* 
+   TICKER
+ */
+
+/* Ticker */
+
+.ticker> .ticker-content{
+    
+        font-size: 13px;
+        position: relative;
+
+        animation-name: moveforward;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes moveforward {
+        from {
+            left: 0;
+        }
+
+        to {
+            left: 100%;
+        }
+    }
+
+/* 
+   FOOTER
+ */
+
+footer {
+
+    background: #f5f7f8;
+
+    border-top: 1px solid #e5e9ec;
+
+    padding: 20px;
+
+    text-align: center;
+
+    color: #7b858e;
+
+    font-size: 10px;
+}
+
+
+/* 
+   RESPONSIVE
+ */
+
+@media (max-width: 1000px) {
+
+    .nav-links {
+
+        gap: 2px;
+    }
+
+    .nav-links a {
+
+        padding: 10px 8px;
+
+        font-size: 12px;
+    }
+
+    .top-right {
+
+        display: none;
+    }
+
+    .sustainability-box {
+
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .navbar {
+
+        height: auto;
+
+        padding: 10px 0;
+    }
+
+    .nav-inner {
+
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+    .nav-links {
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .nav-actions {
+
+        display: none;
+    }
+
+    .products {
+
+        margin-top: 150px;
+
+        padding: 20px 12px;
+    }
+
+    .fonts {
+
+        font-size: 45px;
+    }
+
+    .description p br {
+
+        display: none;
+    }
+
+    .image-container {
+
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+    .card {
+
+        max-width: 330px;
+    }
+
+    .sustainability-box {
+
+        padding: 25px 20px;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    .logo {
+
+        min-width: auto;
+    }
+
+    .nav-links a {
+
+        padding: 7px 8px;
+
+        font-size: 11px;
+    }
+
+    .fonts {
+
+        font-size: 38px;
+    }
+
+    .product-heading ul {
+
+        gap: 8px;
+    }
+
+    .product-heading > ul > li > a {
+
+        padding: 8px 11px;
+
+        font-size: 12px;
+    }
+
+    .productimage {
+
+        height: 260px;
+    }
+
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.sitemap{
+    border: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+
+}
+
+.sitemap li>a{
+    color: #c9a27e;
+
+
+}
+
+.sitemap li{
+    list-style: none;
+    /* padding: 20px;
+    margin-top: 20px; */
+}
