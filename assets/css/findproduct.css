@@ -328,7 +328,7 @@ button {
             rgba(45,36,51,0.85),
             rgba(45,36,51,0.85)
         ),
-        url("../Images/1.jpg");
+        url("../images/1.jpg");
 
     background-size: cover;
 
@@ -613,9 +613,7 @@ button {
 
 
 .sustainability-box {
-
     background: #4a3b4d;
-
     color: white;
 
     border-radius: 19px;
@@ -623,15 +621,11 @@ button {
     padding: 32px 35px;
 
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
 
     gap: 40px;
 
     position: relative;
-
-    display: flex;
-
 }
 
 
@@ -747,15 +741,11 @@ button {
 @keyframes moveforward {
 
     from {
-
-        transform: translateX(-20%);
-
+        transform: translateX(100%);
     }
 
     to {
-
-        transform: translateX(100%);
-
+        transform: translateX(-100%);
     }
 
 }
@@ -938,26 +928,7 @@ body {
     overflow-x: hidden;
 }
 
-.sitemap{
-    border: none;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
 
-
-}
-
-.sitemap li>a{
-    color: #c9a27e;
-
-
-}
-
-.sitemap li{
-    list-style: none;
-    /* padding: 20px;
-    margin-top: 20px; */
-}
 
 
 .quantity {
