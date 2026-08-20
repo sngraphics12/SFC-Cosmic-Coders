@@ -543,12 +543,12 @@ button {
 /* sustainability */
 
 .sustainability-section {
-    padding: 25px 0 40px;
-    width: 100%;
+    padding: 20px 0 45px;
+   
 }
 
 .sustainability-inner {
-    width: 90%;
+    width: 88%;
     max-width: 1200px;
 
     margin: auto;
@@ -569,36 +569,47 @@ button {
 
     gap: 40px;
 
-    position: relative;
+     position: relative;
 
-    display: flex;
+     display: flex;
 }
 
 .sustain-item {
     display: flex;
 
     gap: 15px;
-
-    align-items: flex-start;
 }
 
 .sustain-icon {
     min-width: 36px;
+
     height: 36px;
 
     border-radius: 9px;
+
+    display: grid;
+
+    place-items: center;
+
+    font-size: 18px;
 }
 
 .green-icon {
     background: #c9a27e;
+
+    color: #23d991;
 }
 
 .blue-icon {
     background: whitesmoke;
+
+    color: #4ca3ff;
 }
 
 .yellow-icon {
     background: #fec301;
+
+    color: #e5b936;
 }
 
 .sustain-item h3 {
