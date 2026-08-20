@@ -18,7 +18,7 @@ body {
 
 a {
     text-decoration: none;
-}
+}   
 
 button {
     font-family: inherit;
@@ -417,7 +417,7 @@ button {
     color: white;
     border-radius: 19px;
     padding: 30px 35px;
-    display: grid;
+    
     grid-template-columns: repeat(3, 1fr);
     gap: 35px;
     position: relative;
